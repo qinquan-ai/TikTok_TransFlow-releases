@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "version": "1.9.0",
+  "min_supported": "",
+  "release_date": "2026-10-31",
+  "changelog": "v1.9.0 工具归位、首启向导与完整应用更新。分片安装包，按 latest.json 顺序合并后运行 TransFlow.exe。",
+  "mandatory": false,
+  "download_url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.0/TransFlow-1.9.0-win64.zip.part01",
+  "assets": [
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.0/TransFlow-1.9.0-win64.zip.part01",
+      "size": 1992294400,
+      "sha256": "87352bda1d865bec74851beaab75e62451eb14aa5b6da3899f60e38cd7d6959b",
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.0/TransFlow-1.9.0-win64.zip.part02",
+      "size": 1640424849,
+      "sha256": "77d4b7cddc854a8a1d1c7f0e564790504715d880fae65772e5ce12fdd67f6441",
+      "part": 2,
+      "parts": 2
+    }
+  ]
+}
