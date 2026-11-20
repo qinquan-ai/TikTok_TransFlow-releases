@@ -1,28 +1,87 @@
 {
   "schema": 1,
   "channel": "stable",
-  "version": "1.9.0",
+  "version": "1.9.9",
   "min_supported": "",
-  "release_date": "2026-10-31",
-  "changelog": "v1.9.0 工具归位、首启向导与完整应用更新。分片安装包，按 latest.json 顺序合并后运行 TransFlow.exe。",
+  "release_date": "2026-11-20",
+  "changelog": "# TransFlow 1.9.9\n\n- 启动前统一预检：视频源、抖音登录、StudioKey Key/在线状态、浏览器与磁盘空间，缺项弹窗可直接去处理。\n- 抖音登录态显示为未登录/已登录/检查中/未知。\n- 节点完成/失败/取消后拒绝晚到进度，修复节点停在 93%。\n- 中文 Task ID 的网关请求标签改为 ASCII 编码，修复切片在请求发出前全部失败。\n- 保留 1.9.8 的 OCC、StudioKey、Qwen3、Demucs 修复。",
   "mandatory": false,
-  "download_url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.0/TransFlow-1.9.0-win64.zip.part01",
+  "download_url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part01",
   "assets": [
     {
       "platform": "windows-x64",
-      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.0/TransFlow-1.9.0-win64.zip.part01",
-      "size": 1992294400,
-      "sha256": "87352bda1d865bec74851beaab75e62451eb14aa5b6da3899f60e38cd7d6959b",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part01",
+      "size": 943718400,
+      "sha256": "b887da5390dde6cd538741a11e581cb69d7703a8cd75dd6647e32c8b7f4c204b",
       "part": 1,
-      "parts": 2
+      "parts": 8
     },
     {
       "platform": "windows-x64",
-      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.0/TransFlow-1.9.0-win64.zip.part02",
-      "size": 1640424849,
-      "sha256": "77d4b7cddc854a8a1d1c7f0e564790504715d880fae65772e5ce12fdd67f6441",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part02",
+      "size": 943718400,
+      "sha256": "27b10cea235b95ec0d77e5257be0cba45aa3765b96eaf6f40874c3d1e50cd867",
       "part": 2,
-      "parts": 2
+      "parts": 8
+    },
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part03",
+      "size": 943718400,
+      "sha256": "b34976143ce9a76e211ce0a3661682993eabf6872bf9285fa7bf61d78cbdc5a7",
+      "part": 3,
+      "parts": 8
+    },
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part04",
+      "size": 943718400,
+      "sha256": "b109aca25713c9ee797ca735c0b6aa92f23e70eda6375bfede04b28ecc0f1ca7",
+      "part": 4,
+      "parts": 8
+    },
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part05",
+      "size": 943718400,
+      "sha256": "6df2811b5c24f1d2adcdb1c8d9d9b7a3bbe06ab069fdd4e5b1f0df223c66613e",
+      "part": 5,
+      "parts": 8
+    },
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part06",
+      "size": 943718400,
+      "sha256": "e94f805419d13dadfb99074a65e085638cac479cbf402379874381656ff4041b",
+      "part": 6,
+      "parts": 8
+    },
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part07",
+      "size": 943718400,
+      "sha256": "53336285f40043809a1497aa39799d9a5a72cd3ddac14b728b0f1dc70d27c5fb",
+      "part": 7,
+      "parts": 8
+    },
+    {
+      "platform": "windows-x64",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-win64.zip.part08",
+      "size": 787276337,
+      "sha256": "a259cc3616b5116f87a298f6cb340417490a2b8e47001c5ae5350ff5e9c45dfb",
+      "part": 8,
+      "parts": 8
     }
-  ]
+  ],
+  "app": {
+    "version": "1.9.9",
+    "entry": "TransFlow.exe",
+    "delta": {
+      "from": "1.9.8",
+      "url": "https://github.com/qinquan-ai/TikTok_TransFlow-releases/releases/download/v1.9.9/TransFlow-1.9.9-delta.zip",
+      "sha256": "baa52b645a6f13e014e26704726fa8e52ef151a5e53dd6ccd7ef96a9b8c4a02d",
+      "size": 30658185,
+      "download_bytes": 114210977
+    }
+  }
 }
